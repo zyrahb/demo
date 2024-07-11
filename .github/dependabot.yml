@@ -7,15 +7,21 @@ updates:
       interval: "weekly"
     groups:
       github-actions:
+        patterns:
+          - "*"
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: "weekly"
     groups:
       js:
+        patterns:
+          - "*"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
       interval: "weekly"
     groups:
       ruby:
+        patterns:
+          - "*"
